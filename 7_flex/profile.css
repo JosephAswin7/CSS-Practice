@@ -1,0 +1,20 @@
+body{
+    background-color: darkslategray;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.outer{
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    width: 280px;
+}
+.inner{
+    position: relative;
+    display: inline-flex;
+}

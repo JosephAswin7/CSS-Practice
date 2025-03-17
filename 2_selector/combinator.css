@@ -1,0 +1,99 @@
+.con1{
+    color: rgb(250, 209, 128);
+    background-color: blue;
+    backgrou
+}
+
+.con3{
+    color: ;
+}
+.con2 h1{
+    color: red;
+}
+
+.con2 h1{
+    color: yellow;
+}
+.con3 >h1{
+    color: turquoise;
+}
+
+.sec1 >#btn:hover{
+    color: magenta;
+}
+
+.con4{
+    height: 200px;
+    width: 250px;
+    background-color: brown;
+    border-radius: 5%;
+}
+
+.con4:hover{
+    background-color: deeppink;
+}
+
+.sec1>#btn2{
+    background-color: cornflowerblue;
+}
+.sec1 >#btn2:active{
+    background-color: tomato;
+}
+
+ul >li:nth-child(2n){
+    color: springgreen;
+}
+
+.con5 >p::first-letter{
+    color:darkorchid;
+}
+
+.con5>p::first-line{
+    background-color: sandybrown;
+}
+
+.con5>p::selection{
+    background-color:black;
+    color: azure;
+}
+
+.con6{
+    background-color: blueviolet;
+    height:200px ;
+    width: 500px;
+}
+
+.con6 >h1{
+    color: white;
+}
+
+.con6 >h1::after{
+    content: " $$";
+}
+
+.con6 >h1::before{
+    content: "!! ";
+}
+.con6 >ol >li:nth-child(2n)::marker{
+    color: red;
+}
+
+.con6 >ol >li:nth-child(2n){
+    color: red;
+}
+
+
+form >input[type="text"]{
+    background-color: yellowgreen;
+}
+
+form >input[type="password"]{
+    background-color: snow;
+}
+
+a[target="_blank"]{
+     color: red;
+     background-color: rgb(251, 170, 184);
+
+}
+

@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background-color: antiquewhite;
+    border: 3px solid red;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.box{
+    border: 3px solid red;
+    padding: 10px;
+    /* text-align: center;  */
+    /* text-align: justify; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+  
+}
+.inner{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+
+    grid-auto-rows: 170px;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+#box1{
+    grid-row: span 2;
+    background: url(https://i0.wp.com/picjumbo.com/wp-content/uploads/red-and-blue-pillars-wallpaper-abstract-background-free-image.jpeg?w=600&quality=80);
+
+     background-position: top; 
+     /* background-size: cover; */
+    
+     &:hover{
+       background-position: center;
+       transition: all 2s ease-in-out;
+     }
+}
+#box2{
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/029/109/846/small_2x/space-pixelated-cosmic-energy-ai-generated-photo.jpg);
+
+    background-position: top; 
+     /* background-size: cover; */
+    
+     &:hover{
+       background-position: center;
+       transition: all 2s ease-in-out;
+     }
+}
+#box3{
+    background: url(https://png.pngtree.com/thumb_back/fh260/background/20230722/pngtree-retro-3d-rendered-digital-background-with-old-school-pixelated-video-game-image_3778945.jpg);
+
+    background-position: top; 
+    /* background-size: cover; */
+   
+    &:hover{
+      background-position: center;
+      transition: all 2s ease-in-out;
+    }
+
+}
+#box4{
+    grid-column: span 2;
+    background: url(https://img.freepik.com/free-photo/cosmic-background-with-colorful-laser-lights-with-cool-shapes_181624-26140.jpg?semt=ais_hybrid);
+
+    background-position: top; 
+    /* background-size: cover; */
+   
+    &:hover{
+      background-position: center;
+      transition: all 2s ease-in-out;
+    }
+
+}
+#box5{
+    background: url(https://thumbs.dreamstime.com/b/ai-generated-image-pixelated-bit-video-game-background-s-retro-nostalgic-pixelated-bit-video-game-background-s-retro-319968442.jpg);
+
+    background-position: top; 
+    /* background-size: cover; */
+   
+    &:hover{
+      background-position: center;
+      transition: all 2s ease-in-out;
+    }
+
+}
+#box6{
+    background: url(https://png.pngtree.com/thumb_back/fh260/background/20230721/pngtree-d-illustration-sorting-data-through-filtering-machine-algorithms-in-information-analytics-image_3717248.jpg);
+
+    background-position: top; 
+    /* background-size: cover; */
+   
+    &:hover{
+      background-position: center;
+      transition: all 2s ease-in-out;
+    }
+
+}
+#box7{
+    background: url(https://t4.ftcdn.net/jpg/10/92/29/35/360_F_1092293561_CA2BoeYHI6vF5xXaZFKTF9RSnQzKZS7n.jpg);
+
+    background-position: top; 
+    /* background-size: cover; */
+   
+    &:hover{
+      background-position: center;
+      transition: all 2s ease-in-out;
+    }
+
+}
+
+

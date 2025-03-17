@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+.outer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgoldenrod;
+
+}
+.outer >.inner{
+    height: 300px;
+    width: 700px;
+    border: 2px solid black;
+    background-color: cornsilk;
+    background-image: url(https://www.ipl.com/upload/20250310/045f97a6c7de86f3a5ea981201c38918.webp);
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+     /* background-size: contain;  */
+}

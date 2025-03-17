@@ -1,0 +1,42 @@
+h1{
+    color: red;
+}
+
+/* Id Selector... */
+
+#heading2{
+    color: blue;
+}
+
+#div3{
+    color: brown;
+}
+
+#div2{
+    background-color: #173f5f;
+}
+
+#div1{
+    background-color: darkslategrey;
+}
+
+/* 3. class selector */
+.container{
+    background-color: coral;
+}
+
+/* 4.Universal Selector */
+*{
+    font-style: italic;
+}
+
+.container2{
+    background-color: crimson;
+}
+
+/* 5.Group Selector */
+
+#para1,h3,h4{
+    color: beige;
+    text-align: center;
+}

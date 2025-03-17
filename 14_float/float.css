@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.one{
+    height: 100px;
+    width: 400px;
+    background-color: yellow;
+    float: clear;
+}
+.two{
+    height: 200px;
+    /* width: 400px; */
+    background-color: green;
+}

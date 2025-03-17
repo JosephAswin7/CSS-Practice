@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+}
+
+h1{
+    font-size: 40px;
+    text-shadow: 2px 4px grey ;
+}
+
+.inner >.one{
+    margin-right: 20px;
+
+    animation: name 2s infinite alternate ease-in-out;
+}
+.inner >.two{
+    margin-right: 20px;
+    animation: name 2s infinite alternate ease-in-out;
+    animation-delay: 0.2s;
+
+}
+.inner >.three{
+    margin-right: 20px;
+    animation: name 2s infinite alternate ease-in-out;
+    animation-delay: 0.3s;
+
+
+}
+.inner >.four{
+    margin-right: 20px;
+    animation: name 2s infinite alternate ease-in-out;
+    animation-delay: 0.4s;
+
+}
+.inner >.five{
+    margin-right: 20px;
+    animation: name 2s infinite alternate ease-in-out;
+    animation-delay: 0.5s;
+
+}
+.inner >.six{
+    margin-right: 20px;
+    animation: name 2s infinite alternate ease-in-out;
+    animation-delay: 0.6s;
+
+
+}
+
+@keyframes name {
+    from{
+        transform: translateY(-40px);
+    }
+    to{
+         transform: translateY(40px); 
+    }
+
+}
+
+.img1{
+    height: 350px;
+    width: 400px;
+    position: absolute;
+    top: -200px;
+}
+.img2{
+    height: 150px;
+    width: 200px;
+    position: absolute;
+    bottom: -0px;
+    right: -0px;
+}

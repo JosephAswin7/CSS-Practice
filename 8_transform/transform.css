@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inner{
+   height: 200px;
+   width: 200px;
+   background-color: red;
+   margin-right: 20px;
+   /* transition: 0.2s ease-in; */
+}
+
+.outer{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.inner:hover{
+    background-color: green;
+    cursor: pointer;
+    transition: 2s ease-in; 
+     /* transform: translateX(-400px);  */
+    /* transform: translateY(-200px);  */
+       /* transform: translate(300px,300px);  */
+    /* transform: rotate(360deg);  */
+     /* transform: scale(.2);  */
+     transform: skew(60deg); 
+
+}
+
